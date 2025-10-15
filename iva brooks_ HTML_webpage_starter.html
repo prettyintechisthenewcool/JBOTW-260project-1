@@ -8,44 +8,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Iva M. Brooks — Business Services & Personal Portfolio</title>
   <meta name="description" content="Personal/business website template — services, portfolio, testimonials, contact." />
-  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- tiny placeholder -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 
   <style>
-    /* ----- CSS VARIABLES (theme) ----- */
+    /* ----- CSS VARIABLES (Warm Beige & Soft Gold Theme) ----- */
     :root{
-      --bg: #0f1724;
-      --surface: #0b1220;
-      --muted: #9aa4b2;
-      --accent: #7c5cff;
-      --accent-2: #00d4ff;
-      --glass: rgba(255,255,255,0.04);
+      --bg: #f9f5ef;
+      --surface: #fffdf8;
+      --muted: #7d6f60;
+      --accent: #c2a661;
+      --accent-2: #e2c97a;
+      --glass: rgba(255,255,255,0.5);
       --radius: 12px;
       --max-width: 1100px;
-      --shadow: 0 8px 24px rgba(2,6,23,0.6);
-      --glass-border: rgba(255,255,255,0.06);
+      --shadow: 0 6px 18px rgba(166,136,78,0.15);
+      --glass-border: rgba(193,168,120,0.25);
     }
 
-    /* ----- Reset & base ----- */n
     *,*::before,*::after{box-sizing:border-box}
     html,body{height:100%}
     body{
       margin:0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-      background: linear-gradient(180deg,#071022 0%, #0d1422 60%);
-      color: #e6eef8;
+      font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg,#f9f5ef 0%, #f5eee3 100%);
+      color: #40342a;
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
-      line-height:1.5;
+      line-height:1.6;
       padding:24px;
     }
 
     a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
 
-    .container{
-      max-width:var(--max-width);
-      margin:0 auto;
-      width:100%;
-    }
+    .container{max-width:var(--max-width);margin:0 auto;width:100%;}
 
     header{
       display:flex;
@@ -55,13 +51,13 @@
       margin-bottom:28px;
     }
 
-    .brand{
-      display:flex;align-items:center;gap:12px
-    }
+    .brand{display:flex;align-items:center;gap:12px}
 
     .logo{
-      width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));
-      display:inline-grid;place-items:center;font-weight:700;color:#081325
+      width:44px;height:44px;border-radius:10px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      display:inline-grid;place-items:center;font-weight:700;color:#fffaf0;
+      box-shadow:0 4px 8px rgba(168,133,59,0.2);
     }
 
     nav{display:flex;gap:18px;align-items:center}
@@ -69,48 +65,85 @@
 
     .btn{
       background:linear-gradient(90deg,var(--accent),var(--accent-2));
-      color:#031024;padding:10px 14px;border-radius:10px;font-weight:700;border:none;cursor:pointer
+      color:#fffaf0;
+      padding:10px 14px;
+      border-radius:10px;
+      font-weight:700;
+      border:none;
+      cursor:pointer;
+      box-shadow:0 4px 10px rgba(160,120,40,0.2);
+      transition:opacity .25s ease;
     }
+    .btn:hover{opacity:0.85}
 
-    /* ----- HERO ----- */
-    .hero{
-      display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-bottom:40px;
-    }
-
+    /* HERO */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-bottom:40px;}
     .hero-card{
-      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);border:1px solid var(--glass-border)
+      background:var(--surface);
+      border-radius:var(--radius);
+      padding:28px;
+      box-shadow:var(--shadow);
+      border:1px solid var(--glass-border);
     }
 
     h1{font-size:clamp(1.6rem,2.8vw,2.4rem);margin:0 0 8px}
     p.lead{color:var(--muted);margin:0 0 16px}
-
     .cta-row{display:flex;gap:12px;align-items:center;margin-top:12px}
 
-    /* ----- services grid ----- */
+    /* SERVICES */
     .grid{display:grid;gap:16px}
     .services{grid-template-columns:repeat(3,1fr)}
-    .card{background:var(--surface);padding:18px;border-radius:12px;border:1px solid var(--glass-border)}
+    .card{
+      background:var(--surface);
+      padding:18px;
+      border-radius:12px;
+      border:1px solid var(--glass-border);
+      box-shadow:var(--shadow);
+    }
 
     .feature{display:flex;gap:12px;align-items:flex-start}
-    .icon{width:46px;height:46px;border-radius:10px;background:linear-gradient(135deg,var(--accent),rgba(124,92,255,0.7));display:grid;place-items:center;font-weight:700;color:#041025}
+    .icon{
+      width:46px;height:46px;border-radius:10px;
+      background:linear-gradient(135deg,var(--accent),rgba(226,201,122,0.7));
+      display:grid;place-items:center;font-weight:700;color:#fffaf0;
+    }
 
-    /* ----- portfolio ----- */
+    /* PORTFOLIO */
     .portfolio-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .tile{aspect-ratio:4/3;border-radius:10px;overflow:hidden;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.15));display:flex;flex-direction:column;justify-content:flex-end;padding:12px}
+    .tile{
+      aspect-ratio:4/3;
+      border-radius:10px;
+      overflow:hidden;
+      background:linear-gradient(180deg,#f6eee0,#eaddc0);
+      display:flex;flex-direction:column;justify-content:flex-end;
+      padding:12px;
+      box-shadow:0 4px 10px rgba(180,140,80,0.15);
+    }
 
     .muted{color:var(--muted)}
 
-    /* ----- testimonials & contact ----- */
+    /* TESTIMONIALS & CONTACT */
     .split{display:grid;grid-template-columns:1fr 420px;gap:18px}
 
     form{display:flex;flex-direction:column;gap:10px}
-    input,textarea{background:transparent;border:1px solid var(--glass-border);padding:10px;border-radius:10px;color:inherit}
+    input,textarea{
+      background:#fffefb;
+      border:1px solid var(--glass-border);
+      padding:10px;
+      border-radius:10px;
+      color:inherit;
+    }
     textarea{min-height:120px}
 
-    footer{margin-top:40px;display:flex;justify-content:space-between;gap:12px;align-items:center}
+    footer{
+      margin-top:40px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:center;
+      color:var(--muted);
+    }
 
-    /* ----- responsive ----- */
     @media(max-width:980px){
       .hero,.split{grid-template-columns:1fr}
       .services{grid-template-columns:repeat(2,1fr)}
@@ -135,7 +168,7 @@
       </div>
 
       <nav aria-label="Primary navigation">
-        <a href="#resume">The Experiences & Education</a>
+        <a href="#resume">Experience</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#about">About</a>
         <a href="#contact" class="btn">Contact</a>
@@ -145,10 +178,10 @@
     <main>
       <section class="hero">
         <div class="hero-card">
-          <h1> For Your Information Web Page</h1>
+          <h1>For Your Information Web Page</h1>
           <p class="lead">I'm literally just a girl!</p>
           <div class="cta-row">
-            <a class="btn" href="#contact">contact me</a>
+            <a class="btn" href="#contact">Contact Me</a>
             <a class="muted" href="#portfolio">View portfolio →</a>
           </div>
 
@@ -165,7 +198,7 @@
               <div style="width:10px;height:10px;border-radius:3px;background:var(--accent-2)"></div>
               <div>
                 <div style="font-weight:700">Performance</div>
-                <div class="muted" style="font-size:13px">black ecellence.</div>
+                <div class="muted" style="font-size:13px">Black excellence.</div>
               </div>
             </div>
           </div>
@@ -173,12 +206,12 @@
 
         <aside>
           <div class="card" style="padding:18px;">
-            <h3 style="margin:0 0 8px">Quick stats</h3>
+            <h3 style="margin:0 0 8px">Quick Stats</h3>
             <div class="muted" style="font-size:13px">Selected highlights</div>
             <ul style="margin:12px 0 0;padding-left:18px;color:var(--muted)">
-              <li>there is grey area to everything, use wisely</li>
-              <li>integrity is not negotiable</li>
-              <li>authenticity is an asset</li>
+              <li>There is grey area to everything — use wisely.</li>
+              <li>Integrity is not negotiable.</li>
+              <li>Authenticity is an asset.</li>
             </ul>
           </div>
         </aside>
@@ -189,7 +222,7 @@
           <div class="icon">1</div>
           <div>
             <div style="font-weight:700">DESIGN</div>
-            <div class="muted">design, implementation, execution.</div>
+            <div class="muted">Design, implementation, execution.</div>
           </div>
         </div>
 
@@ -197,7 +230,7 @@
           <div class="icon">2</div>
           <div>
             <div style="font-weight:700">MARKETING</div>
-            <div class="muted">analysis, deomgraphics, psychographics</div>
+            <div class="muted">Analysis, demographics, psychographics.</div>
           </div>
         </div>
 
@@ -205,7 +238,7 @@
           <div class="icon">3</div>
           <div>
             <div style="font-weight:700">CONSULTING</div>
-            <div class="muted">ideas, strategy, plan, and progress-focused implementations.</div>
+            <div class="muted">Ideas, strategy, and progress-focused plans.</div>
           </div>
         </div>
       </section>
@@ -232,19 +265,19 @@
 
       <section id="about" style="margin-top:28px">
         <h2 style="margin:0 0 8px">About</h2>
-        <p class="muted">This Webpage is an introduction to Iva M. Brooks.</p>
+        <p class="muted">This webpage is an introduction to Iva M. Brooks.</p>
       </section>
 
       <section style="margin-top:22px" class="split">
         <div>
           <h3 style="margin-top:0">Round Of Applause</h3>
           <div class="card" style="margin-bottom:10px">
-            <div style="font-weight:700">"phenomenal woman."</div>
+            <div style="font-weight:700">“Phenomenal woman.”</div>
             <div class="muted" style="font-size:13px">— Product Manager, Retail</div>
           </div>
 
           <div class="card">
-            <div style="font-weight:700">"excellent performance and attention to to detail."</div>
+            <div style="font-weight:700">“Excellent performance and attention to detail.”</div>
             <div class="muted" style="font-size:13px">— Founder, SaaS</div>
           </div>
         </div>
@@ -258,7 +291,7 @@
             <input id="name" name="name" required placeholder="Your name" />
 
             <label class="muted" for="email">Email</label>
-            <input id="email" name="email" type="email" required placeholder="contactme@mindingmyownbusiness.com.org.net" />
+            <input id="email" name="email" type="email" required placeholder="contactme@mindingmyownbusiness.com" />
 
             <label class="muted" for="message">Message</label>
             <textarea id="message" name="message" required placeholder="It's never too late"></textarea>
@@ -272,32 +305,23 @@
 
     <footer>
       <div class="muted">© <span id="year"></span> Iva M. Brooks — MIT License</div>
-      <div class="muted">built with intention, respect, & love • <a href="#">GitHub</a></div>
+      <div class="muted">Built with intention, respect, & love • <a href="#">GitHub</a></div>
     </footer>
   </div>
 
   <script>
-    // small JS: accessible year, simple form handling
     document.getElementById('year').textContent = new Date().getFullYear();
-
     function handleSubmit(e){
       e.preventDefault();
       const status = document.getElementById('status');
       const form = e.target;
       status.textContent = 'Sending — demo only (no server configured)';
-
-      // Demo behaviour: show a success message and reset
       setTimeout(()=>{
-        status.textContent = 'Thanks! I\'ll get back to you soon.';
+        status.textContent = "Thanks! I'll get back to you soon.";
         form.reset();
       },750);
-
       return false;
     }
   </script>
 </body>
 </html>
-
-
-
-
