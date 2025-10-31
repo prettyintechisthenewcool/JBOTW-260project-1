@@ -6,9 +6,13 @@ License: A statement of the license under which the software is released.
 1: HTML specification maintained by the WHATWG (Web Hypertext Application Technology Working Group), is released under the CC0 1.0 Universal (Public Domain Dedication) license
 Contact Information: email or other contact info for further communication.
 1: Iva M. Brooks, 312-111-1111
+included files and/or file folders
+1: /static/profile.png → your profile photo
+2: /static/resume.pdf → your downloadable résumé
+3: /static/presentation.pdf and /static/publication-1.pdf to the publication PDFs buttons
 
 ## Dependencies
 1. HTML 
 2. CSS
 
-This is just an example code or read me
+This HTML page runs entirely in a browser
