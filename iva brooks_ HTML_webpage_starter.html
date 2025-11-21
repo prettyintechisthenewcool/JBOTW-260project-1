@@ -6,6 +6,7 @@
     <title>Iva M. Brooks — Cybersecurity Newbie</title>
     <meta name="description" content="Portfolio of Iva M. Brooks — Cybersecurity Newbie">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
       body { background-color: #f9faf5; } /* soft lemongrass background */
       .accent { color: #a8c256; } /* lemongrass green text */
@@ -13,7 +14,14 @@
       .btn-primary { background-color: #a8c256; color: white; }
       .btn-primary:hover { background-color: #91ad49; }
     </style>
+
+    <!-- Smooth scrolling (1-line) -->
+    <style>html{scroll-behavior:smooth;}</style>
+
+    <!-- Dark-mode favicon (1-line) -->
+    <link rel="icon" href="static/favicon-dark.png" media="(prefers-color-scheme: dark)">
   </head>
+
   <body class="text-gray-800 antialiased">
 
     <header class="accent-bg border-b border-lime-200">
@@ -172,7 +180,7 @@
       </section>
 
       <footer class="mt-12 text-center text-sm text-gray-500">
-        Published with love, respectfully — Iva M. Brooks © 2025
+        Published with love, respectfully — Iva M. Brooks © <span id="year"></span>
       </footer>
     </main>
 
@@ -186,24 +194,9 @@
           e.target.reset();
         }, 1000);
       }
+
+      // Auto-update copyright year (1-line)
+      document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
