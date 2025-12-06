@@ -14,5 +14,7 @@ included files and/or file folders
 ## Dependencies
 1. HTML 
 2. CSS
+3. phpoffice/phpspreadsheet
+
 
 This HTML page runs entirely in a browser
