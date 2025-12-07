@@ -41,7 +41,7 @@ Auto-updating copyright year
 
 Accessible and semantic HTML structure
 
-Tech Stack
+TECH STACK
 
 HTML5 & CSS3
 
@@ -103,22 +103,20 @@ Duplicate prevention: Checks for duplicate emails before adding new entries.
 
 Table preview: Renders all contacts in a clean, scrollable table.
 
-Customization
+CUSTOMAZATION
 
 Update colors in <style>:
-
 .accent { color: #a8c256; }
 .accent-bg { background-color: #cde3a3; }
 .btn-primary { background-color: #a8c256; color: white; }
 
+Replace static PDFs and images in /static to static file folder files.
 
-Replace static PDFs and images in /static with your own content.
+Modifable education, experience, awards, and publications sections directly in HTML.
 
-Modify education, experience, awards, and publications sections directly in HTML.
+Adjustable table headers or form fields in JavaScript if needed.
 
-Adjust table headers or form fields in JavaScript if needed.
-
-Deployment
+DEPLOYMENT
 
 Can be hosted on GitHub Pages, Netlify, Vercel, or any static hosting platform.
 
@@ -126,17 +124,18 @@ Simply push all files including /static folder and index.html.
 
 No server-side processing is required.
 
-License
+LICENSE
 
-This project is personal and free to use for portfolio purposes. All content belongs to Iva M. Brooks.
+This project is personal and free to use for this portfolio's purposes. All content belongs to Iva M. Brooks.
 
-Contact
+CONTACT DATA
 
 Email: contactme@mindingmyownbusiness.org
 
 Phone: +1 312-111-1111
 
 Location: PO Box 100 Main Street, Chicago, Illinois 60601
+______________________________________________________________________________________________________
 ## Dependencies
 1. HTML 
 2. CSS
