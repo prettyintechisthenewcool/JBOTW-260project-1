@@ -4,9 +4,9 @@ A business-personal webpage to highlights business-personal human character, inc
 with an idenifing photo intergration, current, most pertinent or most recent experience, work, and/or project, to also include an education section, publications and/or porfolio section, with downloadable pdf documentation, and to include ontact message data entry intergrations to an end-user data intergration to a database spreadsheet
 License: A statement of the license under which the software is released. 
 1: HTML specification maintained by the WHATWG (Web Hypertext Application Technology Working Group), is released under the CC0 1.0 Universal (Public Domain Dedication) license
-Iva M. Brooks — Cybersecurity Portfolio
-Overview
+Iva M. Brooks — Cybersecurity Newbie Portfolio
 
+SITE DATA OVERVIEW 
 This is the personal portfolio website of Iva M. Brooks, a cybersecurity enthusiast and continuing education student. The site showcases her bio, experience, publications, awards, and includes a mock contact system with Excel integration for collecting and exporting contact messages.
 
 The project uses HTML, Tailwind CSS, and SheetJS (XLSX) to handle Excel functionality directly in the browser.
