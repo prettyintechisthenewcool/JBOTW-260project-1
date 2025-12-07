@@ -6,7 +6,7 @@ License: A statement of the license under which the software is released.
 1: HTML specification maintained by the WHATWG (Web Hypertext Application Technology Working Group), is released under the CC0 1.0 Universal (Public Domain Dedication) license
 Iva M. Brooks — Cybersecurity Newbie Portfolio
 
-SITE DATA OVERVIEW 
+SITE DATA OVERVIEW: 
 This is the personal portfolio website of Iva M. Brooks, a cybersecurity enthusiast and continuing education student. The site showcases her bio, experience, publications, awards, and includes a mock contact system with Excel integration for collecting and exporting contact messages.
 
 The project uses HTML, Tailwind CSS, and SheetJS (XLSX) to handle Excel functionality directly in the browser.
