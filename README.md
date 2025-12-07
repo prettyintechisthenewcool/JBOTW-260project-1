@@ -8,7 +8,7 @@ License: A statement of the license under which the software is released.
 
 1: HTML specification maintained by the WHATWG (Web Hypertext Application Technology Working Group), is released under the CC0 1.0 Universal (Public Domain Dedication) license
 _______________________________________________________________________________________________________
-an open-source code template is utilized in this project which is viewable within PDF file contents to this project named  (original open-source code_template.pdf)
+an open-source code template is utilized in this project which is viewable within PDF file contents to this project named  (sample-index.html)
 
 Iva M. Brooks — Cybersecurity Newbie Portfolio
 
