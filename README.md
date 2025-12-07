@@ -11,13 +11,13 @@ This is the personal portfolio website of Iva M. Brooks, a cybersecurity enthusi
 
 The project uses HTML, Tailwind CSS, and SheetJS (XLSX) to handle Excel functionality directly in the browser.
 
-Features
+FEATURES
 
-Responsive design with mobile-first approach using Tailwind CSS
+Modern design with mobile-first approach using Tailwind CSS
 
-Smooth scrolling for anchor links
+Smooth scrolling for links
 
-Dark-mode favicon support
+Dark-mode 
 
 Bio, Education, Experience, Publications, Awards sections
 
@@ -29,7 +29,7 @@ Add new messages
 
 Preview in-page as a table
 
-Export all messages to Excel (ContactData.xlsx)
+Export all contact form messages to Excel (ContactData.xlsx) **live version not mock version**
 
 Load existing Excel files to prefill contact list
 
