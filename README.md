@@ -116,7 +116,7 @@ Update colors in <style>:
 .accent-bg { background-color: #cde3a3; }
 .btn-primary { background-color: #a8c256; color: white; }
 
-Replace static PDFs and images in /static to static file folder files.
+Replaceable static PDFs and images in /static to static file folder files.
 
 Modifable education, experience, awards, and publications sections directly in HTML.
 
