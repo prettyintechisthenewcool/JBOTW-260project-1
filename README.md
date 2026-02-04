@@ -13,7 +13,7 @@ an open-source code template is utilized in this project which is viewable withi
 Iva M. Brooks — Cybersecurity Newbie Portfolio
 
 SITE DATA OVERVIEW: 
-This is the personal portfolio website of Iva M. Brooks, a cybersecurity enthusiast and continuing education student. The site showcases her bio, experience, publications, awards, and includes a mock contact system with Excel integration for collecting and exporting contact messages.
+This is the personal business portfolio website of Iva M. Brooks, a cybersecurity newbie enthusiast and continuing education student. The site showcases her bio, experience, publications, awards, and includes a mock contact system with Excel integration for collecting and exporting contact messages.
 
 The project uses HTML, Tailwind CSS, and SheetJS (XLSX) to handle Excel functionality directly in the browser.
 
