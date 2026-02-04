@@ -136,7 +136,7 @@ This project is personal and free to use for this portfolio's purposes. All cont
 
 CONTACT DATA
 
-Email: contactme@mindingmyownbusiness.org
+Email: contactme@mindingmyownbusiness.org.net.com
 
 Phone: +1 312-111-1111
 
