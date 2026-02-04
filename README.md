@@ -2,7 +2,7 @@ CIS 260 - Business-Personal Webpage
 
 Project Description: A brief summary of the project's goals, functions, and usage. 
 A business-personal webpage to highlights business-personal human character, inclusive to an a breif character overview
-with an idenifing photo intergration, current, most pertinent or most recent experience, work, and/or project, to also include an education section, publications and/or porfolio section, with downloadable pdf documentation, and to include ontact message data entry intergrations to an end-user data intergration to a database spreadsheet
+with an idenifing photo intergration, current, most pertinent or most recent experience, work, and/or project, to also include an education section, publications and/or porfolio section, with downloadable pdf documentation, downloadable PDF to a full current relevant resume, and to include ontact message data entry intergrations to an end-user data intergration to a database spreadsheet
 ______________________________________________________________________________________________________
 License: A statement of the license under which the software is released. 
 
